@@ -4,8 +4,11 @@
 
 ---
 
-## 📖 Introduction
+## 📖 Prepare
 
+```
+pip install -r requirements.txt
+```
 
 
 ---
