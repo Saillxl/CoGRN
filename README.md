@@ -31,11 +31,6 @@ python rna_atac_graph.py
 python Cogrn.py kidney
 ```
 
-## 📌 Citation
-If you find this repository useful, please cite our paper(bibtex):
-```
-
-```
 
 ## 🙏 Acknowledgement
 
