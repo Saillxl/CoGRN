@@ -19,11 +19,6 @@ cd CoGRN/
 
 ---
 
-## 📑 Dataset Preparation
-
-The dataset should follow the format below. 
-
-
 ## ⚙️ Requirements
 We recommend creating a clean environment:
 
@@ -36,13 +31,13 @@ pip install -r requirements.txt
 ## 🚀 data_preprocess
 
 ```
-python train.py --hiera_path './checkpoints/sam2_hiera_large.pt' --train_image_path 'data/BUSI/train/img.yaml' --train_mask_path 'data/BUSI/train/ann.yaml' --save_path 'output/BUSI' 
+python rna_atac_graph.py 
 ```
 
-## 🧪 Testing
-Run test.py
+## 🧪 Run
+
 ```
-python test.py --checkpoint 'output/BUSI/SAM2-UNet-70.pth' --test_image_path 'data/BUSI/test/img.yaml' --test_gt_path 'data/BUSI/test/ann.yaml' --save_path 'output/'
+python Cogrn.py kidney
 ```
 
 ## 📌 Citation
