@@ -1,0 +1,31 @@
+pretrain:
+  lr: 0.0002
+  epochs: 500
+  temperature: 0.102
+  batch_size: 64
+train:
+  lr: 0.0006
+  epochs: 600
+  weight_decay: 0.0005
+  patience: 200
+  min_delta: 0.001
+  neg_to_pos_ratio: 5
+  infer_batch_size: 2048
+model:
+  embed_dim: 128
+  fused_dim: 128
+gnn:
+  hidden_channels: 128
+  out_channels: 128
+  gnn_layer_type: "GAT"
+  num_heads: 16
+  dropout_rate: 0.4
+fusion:
+  num_heads: 16
+  dropout_rate: 0.4
+paths:
+  raw_scrna_dir: "./dataset/H_brain/RNA_matrix"
+  aligned_data_dir: "./result/H_brain/graph"
+  gold_standards:
+    Combined_Network: "./groundtruth/brain_gold_standard_network.txt"
+
