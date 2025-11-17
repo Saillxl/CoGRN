@@ -1,18 +1,6 @@
 # CoGRN
 
 
-
----
-
-## 📖 Prepare
-
-```
-pip install -r requirements.txt
-```
-
-
----
-
 ## 📂 Clone Repository
 
 ```bash
