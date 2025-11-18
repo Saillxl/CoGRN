@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 ## 🚀 data_preprocess
 
+👉 **[Download the data ](https://drive.google.com/drive/folders/10SzksdhQ6NSGOlumRSw73Yt2mfcFz98T?usp=sharing) and extract it**
 ```
 python rna_atac_graph.py 
 ```
